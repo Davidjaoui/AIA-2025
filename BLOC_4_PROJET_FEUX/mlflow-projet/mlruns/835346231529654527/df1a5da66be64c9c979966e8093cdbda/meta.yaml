@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/joelt/Documents/Formation_DATA/03_LEAD/02_PROJETS/04_FINAL_PROJECT/src/mlflow-projet/mlruns/835346231529654527/df1a5da66be64c9c979966e8093cdbda/artifacts
+end_time: 1762353998854
+entry_point_name: ''
+experiment_id: '835346231529654527'
+lifecycle_stage: active
+run_id: df1a5da66be64c9c979966e8093cdbda
+run_name: XGBSurv_Train
+run_uuid: df1a5da66be64c9c979966e8093cdbda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762353977167
+status: 3
+tags: []
+user_id: joelt

@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/c/Users/joelt/Documents/Formation_DATA/03_LEAD/02_PROJETS/04_FINAL_PROJECT/src/mlflow-projet/mlruns/835346231529654527
+creation_time: 1762353749105
+experiment_id: '835346231529654527'
+last_update_time: 1762353749105
+lifecycle_stage: active
+name: survival_xgb_training

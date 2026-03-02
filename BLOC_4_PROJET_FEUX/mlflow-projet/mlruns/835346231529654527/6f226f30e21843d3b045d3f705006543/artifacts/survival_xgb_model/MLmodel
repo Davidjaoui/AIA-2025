@@ -1,0 +1,21 @@
+artifact_path: survival_xgb_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.25
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.21.3
+model_size_bytes: 122719
+model_uuid: e9edd19851fc4a21b079f07d81ca102c
+prompts: null
+run_id: 6f226f30e21843d3b045d3f705006543
+utc_time_created: '2025-11-05 14:42:35.510520'
