@@ -1,0 +1,11 @@
+[2025-12-06T16:00:27.906+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/train.py
+[2025-12-06T16:00:27.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train.py for tasks to queue
+[2025-12-06T16:00:27.911+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:27.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/train.py
+[2025-12-06T16:00:28.733+0000] {processor.py:840} INFO - DAG(s) 'train_survival_xgb' retrieved from /opt/airflow/dags/train.py
+[2025-12-06T16:00:29.118+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:29.117+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:train_survival_xgb
+[2025-12-06T16:00:29.132+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:29.132+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:train_survival_xgb
+[2025-12-06T16:00:29.142+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:29.141+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:train_survival_xgb
+[2025-12-06T16:00:29.143+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:29.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-06T16:00:29.161+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:29.160+0000] {dag.py:3118} INFO - Creating ORM DAG for train_survival_xgb
+[2025-12-06T16:00:29.162+0000] {logging_mixin.py:188} INFO - [2025-12-06T16:00:29.162+0000] {dag.py:3954} INFO - Setting next_dagrun for train_survival_xgb to None, run_after=None
+[2025-12-06T16:00:29.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train.py took 1.295 seconds

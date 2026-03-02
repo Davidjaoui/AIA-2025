@@ -1,0 +1,58 @@
+[2025-11-10T09:37:51.279+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-10T09:37:51.301+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: predictions_incendies_dag.generate_predictions manual__2025-11-10T09:15:45+00:00 [queued]>
+[2025-11-10T09:37:51.309+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: predictions_incendies_dag.generate_predictions manual__2025-11-10T09:15:45+00:00 [queued]>
+[2025-11-10T09:37:51.309+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-10T09:37:51.323+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): generate_predictions> on 2025-11-10 09:15:45+00:00
+[2025-11-10T09:37:51.332+0000] {standard_task_runner.py:63} INFO - Started process 92 to run task
+[2025-11-10T09:37:51.336+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'predictions_incendies_dag', 'generate_predictions', 'manual__2025-11-10T09:15:45+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/test_pred_feux.py', '--cfg-path', '/tmp/tmptmy9e9xe']
+[2025-11-10T09:37:51.337+0000] {standard_task_runner.py:91} INFO - Job 57: Subtask generate_predictions
+[2025-11-10T09:37:51.386+0000] {task_command.py:426} INFO - Running <TaskInstance: predictions_incendies_dag.generate_predictions manual__2025-11-10T09:15:45+00:00 [running]> on host 8a4fd83136fa
+[2025-11-10T09:37:51.459+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='predictions_incendies_dag' AIRFLOW_CTX_TASK_ID='generate_predictions' AIRFLOW_CTX_EXECUTION_DATE='2025-11-10T09:15:45+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-10T09:15:45+00:00'
+[2025-11-10T09:37:51.461+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-10T09:37:51.487+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-10T09:37:51.488+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test_pred_feux.py", line 45, in generate_predictions
+    df = load_data_from_s3().copy()
+  File "/opt/airflow/dags/test_pred_feux.py", line 32, in load_data_from_s3
+    obj = s3.get_object(Bucket=bucket, Key=source_key)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/client.py", line 565, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/client.py", line 1001, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/client.py", line 1027, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/signers.py", line 105, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/signers.py", line 199, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.10/site-packages/botocore/auth.py", line 418, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2025-11-10T09:37:51.500+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=predictions_incendies_dag, task_id=generate_predictions, run_id=manual__2025-11-10T09:15:45+00:00, execution_date=20251110T091545, start_date=20251110T093751, end_date=20251110T093751
+[2025-11-10T09:37:51.513+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 57 for task generate_predictions (Unable to locate credentials; 92)
+[2025-11-10T09:37:51.548+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-10T09:37:51.562+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-10T09:37:51.564+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

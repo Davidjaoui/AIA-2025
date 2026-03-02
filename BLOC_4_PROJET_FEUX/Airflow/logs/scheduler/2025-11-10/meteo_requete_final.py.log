@@ -1,0 +1,98 @@
+[2025-11-10T09:37:44.255+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:37:44.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:37:44.258+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:37:44.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:37:45.146+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:37:45.142+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:37:45.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:37:45.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.923 seconds
+[2025-11-10T09:38:15.334+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:38:15.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:38:15.346+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:38:15.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:38:15.694+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:38:15.689+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:38:15.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:38:15.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.423 seconds
+[2025-11-10T09:38:46.198+0000] {processor.py:161} INFO - Started process (PID=157) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:38:46.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:38:46.212+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:38:46.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:38:46.586+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:38:46.582+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:38:46.588+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:38:46.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.428 seconds
+[2025-11-10T09:39:17.409+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:39:17.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:39:17.413+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:39:17.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:39:17.673+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:39:17.669+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:39:17.674+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:39:17.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.292 seconds
+[2025-11-10T09:39:48.400+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:39:48.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:39:48.403+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:39:48.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:39:48.613+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:39:48.610+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:39:48.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:39:48.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.234 seconds
+[2025-11-10T09:40:19.469+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:40:19.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:40:19.472+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:40:19.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:40:19.689+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:40:19.683+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:40:19.691+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:40:19.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.247 seconds
+[2025-11-10T09:40:50.588+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:40:50.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/meteo_requete_final.py for tasks to queue
+[2025-11-10T09:40:50.591+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:40:50.590+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:40:50.804+0000] {logging_mixin.py:188} INFO - [2025-11-10T09:40:50.798+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/meteo_requete_final.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/meteo_requete_final.py", line 4, in <module>
+    import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2025-11-10T09:40:50.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/meteo_requete_final.py
+[2025-11-10T09:40:50.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/meteo_requete_final.py took 0.238 seconds

@@ -1,0 +1,266 @@
+[2025-11-14T18:17:18.591+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:17:18.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:17:18.595+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:18.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:17:20.963+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:20.953+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:17:20.969+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:17:20.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.411 seconds
+[2025-11-14T18:17:51.102+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:17:51.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:17:51.106+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:51.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:17:53.110+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:53.105+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:17:53.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:17:53.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.041 seconds
+[2025-11-14T18:18:23.513+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:18:23.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:18:23.516+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:23.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:18:25.322+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:25.316+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:18:25.324+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:18:25.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.847 seconds
+[2025-11-14T18:18:55.749+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:18:55.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:18:55.753+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:55.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:18:58.002+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:57.996+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:18:58.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:18:58.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.297 seconds
+[2025-11-14T18:19:28.279+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:19:28.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:19:28.283+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:19:28.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:19:30.598+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:19:30.591+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:19:30.602+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:19:30.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.360 seconds
+[2025-11-14T18:20:00.982+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:20:00.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:20:00.986+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:00.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:20:03.263+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:03.257+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:20:03.266+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:20:03.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.314 seconds
+[2025-11-14T18:20:33.711+0000] {processor.py:161} INFO - Started process (PID=369) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:20:33.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:20:33.715+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:33.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:20:35.868+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:35.862+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:20:35.872+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:20:35.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.198 seconds
+[2025-11-14T18:21:06.161+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:21:06.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:21:06.166+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:06.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:21:08.132+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:08.125+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:21:08.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:21:08.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.012 seconds
+[2025-11-14T18:21:38.504+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:21:38.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:21:38.508+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:38.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:21:40.705+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:40.696+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:21:40.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:21:40.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.243 seconds
+[2025-11-14T18:22:11.080+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:22:11.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:22:11.084+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:11.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:22:13.531+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:13.525+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:22:13.535+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:22:13.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.495 seconds
+[2025-11-14T18:22:43.850+0000] {processor.py:161} INFO - Started process (PID=583) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:22:43.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:22:43.854+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:43.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:22:45.533+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:45.527+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:22:45.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:22:45.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.719 seconds
+[2025-11-14T18:23:15.990+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:23:15.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:23:15.994+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:15.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:23:17.830+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:17.823+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:23:17.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:23:17.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.877 seconds
+[2025-11-14T18:23:48.202+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:23:48.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:23:48.207+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:48.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:23:50.152+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:50.144+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:23:50.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:23:50.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.990 seconds
+[2025-11-14T18:24:20.598+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:24:20.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:24:20.603+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:20.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:24:22.755+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:22.748+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:24:22.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:24:22.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.199 seconds
+[2025-11-14T18:24:52.987+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:24:52.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:24:52.992+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:52.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:24:55.125+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:55.120+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:24:55.129+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:24:55.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.168 seconds
+[2025-11-14T18:25:25.414+0000] {processor.py:161} INFO - Started process (PID=848) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:25:25.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:25:25.418+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:25.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:25:27.006+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:26.998+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:25:27.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:25:27.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.635 seconds
+[2025-11-14T18:25:57.599+0000] {processor.py:161} INFO - Started process (PID=898) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:25:57.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:25:57.604+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:57.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:25:59.591+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:59.585+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:25:59.594+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:25:59.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 2.030 seconds
+[2025-11-14T18:26:29.990+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:26:29.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:26:29.995+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:29.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:26:31.797+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:31.792+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:26:31.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:26:31.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.847 seconds
+[2025-11-14T18:27:01.981+0000] {processor.py:161} INFO - Started process (PID=1005) to work on /opt/airflow/dags/predict.py
+[2025-11-14T18:27:01.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/predict.py for tasks to queue
+[2025-11-14T18:27:01.985+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:27:01.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/predict.py
+[2025-11-14T18:27:03.895+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:27:03.891+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/predict.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/predict.py", line 5, in <module>
+    from lifelines import CoxPHFitter
+ModuleNotFoundError: No module named 'lifelines'
+[2025-11-14T18:27:03.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/predict.py
+[2025-11-14T18:27:03.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/predict.py took 1.945 seconds

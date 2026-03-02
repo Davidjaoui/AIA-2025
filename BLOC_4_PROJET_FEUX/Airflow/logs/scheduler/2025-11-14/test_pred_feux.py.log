@@ -1,0 +1,133 @@
+[2025-11-14T18:17:19.566+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:17:19.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:17:19.570+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:19.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:17:21.568+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:17:21.597+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:21.597+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:17:21.622+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:21.622+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:17:21.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.091 seconds
+[2025-11-14T18:17:52.122+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:17:52.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:17:52.127+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:52.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:17:54.081+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:17:54.108+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:54.107+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:17:54.131+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:17:54.131+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:17:54.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.051 seconds
+[2025-11-14T18:18:24.527+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:18:24.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:18:24.532+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:24.532+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:18:26.358+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:18:26.387+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:26.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:18:26.410+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:26.410+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:18:26.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.924 seconds
+[2025-11-14T18:18:56.771+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:18:56.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:18:56.776+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:56.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:18:58.892+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:18:58.918+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:58.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:18:58.939+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:18:58.939+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:18:58.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.212 seconds
+[2025-11-14T18:19:29.299+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:19:29.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:19:29.304+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:19:29.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:19:31.546+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:19:31.573+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:19:31.572+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:19:31.592+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:19:31.592+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:19:31.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.325 seconds
+[2025-11-14T18:20:02.004+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:20:02.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:20:02.008+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:02.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:20:04.306+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:20:04.333+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:04.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:20:04.353+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:04.353+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:20:04.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.385 seconds
+[2025-11-14T18:20:34.729+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:20:34.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:20:34.732+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:34.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:20:36.739+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:20:36.763+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:36.763+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:20:36.786+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:20:36.786+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:20:36.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.095 seconds
+[2025-11-14T18:21:07.169+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:21:07.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:21:07.176+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:07.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:21:09.055+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:21:09.077+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:09.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:21:09.097+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:09.096+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:21:09.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.957 seconds
+[2025-11-14T18:21:39.523+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:21:39.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:21:39.527+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:39.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:21:41.674+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:21:41.698+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:41.697+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:21:41.718+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:21:41.718+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:21:41.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.236 seconds
+[2025-11-14T18:22:12.097+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:22:12.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:22:12.101+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:12.101+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:22:14.350+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:22:14.378+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:14.378+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:22:14.402+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:14.402+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:22:14.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.344 seconds
+[2025-11-14T18:22:44.865+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:22:44.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:22:44.870+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:44.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:22:46.562+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:22:46.590+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:46.589+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:22:46.610+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:22:46.610+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:22:46.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.777 seconds
+[2025-11-14T18:23:17.001+0000] {processor.py:161} INFO - Started process (PID=634) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:23:17.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:23:17.004+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:17.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:23:18.755+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:23:18.782+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:18.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:23:18.807+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:18.807+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:23:18.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.847 seconds
+[2025-11-14T18:23:49.217+0000] {processor.py:161} INFO - Started process (PID=692) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:23:49.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:23:49.221+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:49.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:23:51.034+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:23:51.059+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:51.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:23:51.080+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:23:51.080+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:23:51.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.893 seconds
+[2025-11-14T18:24:21.624+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:24:21.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:24:21.629+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:21.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:24:23.560+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:24:23.583+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:23.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:24:23.605+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:23.605+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:24:23.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.015 seconds
+[2025-11-14T18:24:54.013+0000] {processor.py:161} INFO - Started process (PID=799) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:24:54.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:24:54.017+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:54.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:24:56.011+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:24:56.036+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:56.035+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:24:56.057+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:24:56.057+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:24:56.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 2.078 seconds
+[2025-11-14T18:25:26.431+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:25:26.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:25:26.434+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:26.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:25:28.163+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:25:28.194+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:28.193+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:25:28.219+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:28.218+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:25:28.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.821 seconds
+[2025-11-14T18:25:58.618+0000] {processor.py:161} INFO - Started process (PID=899) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:25:58.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:25:58.622+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:25:58.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:26:00.427+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:26:00.453+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:00.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:26:00.473+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:00.473+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:26:00.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.891 seconds
+[2025-11-14T18:26:31.004+0000] {processor.py:161} INFO - Started process (PID=956) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:26:31.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:26:31.007+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:31.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:26:32.657+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:26:32.684+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:32.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:26:32.706+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:26:32.705+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:26:32.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.741 seconds
+[2025-11-14T18:27:03.006+0000] {processor.py:161} INFO - Started process (PID=1006) to work on /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:27:03.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_pred_feux.py for tasks to queue
+[2025-11-14T18:27:03.011+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:27:03.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:27:04.846+0000] {processor.py:840} INFO - DAG(s) 'predictions_incendies_dag' retrieved from /opt/airflow/dags/test_pred_feux.py
+[2025-11-14T18:27:04.872+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:27:04.871+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-11-14T18:27:04.894+0000] {logging_mixin.py:188} INFO - [2025-11-14T18:27:04.893+0000] {dag.py:3954} INFO - Setting next_dagrun for predictions_incendies_dag to 2025-11-14 02:00:00+00:00, run_after=2025-11-15 02:00:00+00:00
+[2025-11-14T18:27:04.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_pred_feux.py took 1.926 seconds
