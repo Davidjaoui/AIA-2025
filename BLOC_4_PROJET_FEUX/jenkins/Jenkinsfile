@@ -1,0 +1,57 @@
+
+pipeline {
+    agent any
+    environment {
+        TEST_IMAGE = 'meteo_test'
+        ETL_IMAGE = 'meteo_etl'
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Debug: Position') {
+            steps {
+                sh 'pwd'
+                sh 'ls -la'
+            }
+        }
+
+        stage('Prepare Context') {
+            steps {
+                sh '''
+                    rm -rf temp_build
+                    mkdir temp_build
+                    cp -r LEAD/tests temp_build/
+                    cp -r LEAD/jenkins temp_build/
+                    ls -la temp_build/
+                '''
+            }
+        }
+
+        stage('Build Test Container') {
+            steps {
+                sh 'docker build -t ${TEST_IMAGE} -f temp_build/tests/Dockerfile temp_build/tests/'
+            }
+        }
+
+        stage('Run Tests in Container') {
+            steps {
+                sh 'docker run --rm ${TEST_IMAGE}'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo '✅ ETL Pipeline completed successfully!'
+        }
+        failure {
+            echo '❌ ETL Pipeline failed.'
+        }
+    }
+}
+
+
